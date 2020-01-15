@@ -1,0 +1,112 @@
+.content {
+    border: 1px;
+    border-style: solid;
+    width: 60%;
+    margin-left: 20%;
+    overflow: hidden;
+    z-index: 2342;
+}
+
+header {
+    background-image: url(img/superior.jpg);
+}
+
+body {
+    margin: 0em;
+    font-family: 'Oswald', sans-serif;
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.56);
+    position: sticky;
+    top: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.56);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+
+li a:hover {
+    background-color: #111;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    margin: 0px;
+}
+
+.presentacion {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.corte {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.domicilio {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contenido1 {
+    display: inline-block;
+    align-items: flex-start;
+}
+
+.fotos {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.servicio {
+    /*display: inline-block;*/
+    width: 20%;
+    justify-content: center;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+.logos {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.logotapos {
+    width: 20%;
+    justify-content: center;
+    text-align: center;
+}
